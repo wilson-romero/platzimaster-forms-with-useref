@@ -1,6 +1,12 @@
 import React from 'react';
+import Form from './Form';
+
 import '../styles/components/App.styl';
 
-const App = () => <h1>Hello React!</h1>;
-
-export default App;
+export default function App() {
+  return (
+    <div className="container">
+      <Form />
+    </div>
+  );
+}
